@@ -46,5 +46,9 @@ public class StudentController {
         return "Data Deleted";
 
     }
+    @GetMapping("/")
+    public String goHome(){
+        return "Hello world";
+    }
 
 }
